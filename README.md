@@ -10,3 +10,11 @@ Consigli del giorno:
 scegliete con attenzione gli strumenti che utilizzerete;
 tenete in mente le funzionalità che dovranno essere implementate nei giorni successivi;
 ricordate che per arrivare alle caratteristiche interni della struttura dati contatti dovete percorrere tutta la struttura, chiedendovi ad ogni passaggio il tipo di dato a quale siete arrivati.
+
+1. importare la cdn di vue
+1. inizializzare l'istanza di Vue
+1. importare i data dentro il data() di Vue
+1. dinamicizzare tramite Vue l'elenco degli utenti
+1. al click su un utente, visualizzare il suo nome nell'header
+1. sempre al click, visualizzare la chat di quell'utente
+1. dall'iinput, inviare un nuovo messaggio
