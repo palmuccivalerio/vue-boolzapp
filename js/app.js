@@ -5,7 +5,36 @@ const app = Vue.createApp({
             userList: globalUsersList,
             selectedUser: {},
             searchInput: '',
-            newMsg:''
+            newMsg: {
+                date:'',
+                text: '',
+                status: 'sent'
+            }
+
+
+            
         }
+    },
+    methods: {
+        addMessage() {
+            this.userList[this.userIndex].messages.push(this.newMsg);
+        
+            setTimeout (() => {
+                
+                const receivedMsg = {date: '', text: 'ok', status: 'received'};
+                this.userList[this.userIndex].messages.push(receivedMsg);
+    
+                
+            }, 1000)
+
+        
+        },
+
+
+       
+        
     }
 }).mount('#app');
+
+
+
